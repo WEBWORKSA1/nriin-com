@@ -1,0 +1,11 @@
+{
+ "_note": "Roles shown on /careers. Remove a role by deleting its object.",
+ "roles": [
+  { "title": "Cross-border tax writer (CA, CPA or EA)", "type": "Freelance", "summary": "Write and review plain-language guides on Indian and home-country tax for non-residents.", "points": ["Qualified CA, CPA, EA or chartered tax adviser", "Experience with NRI or expatriate returns", "Able to explain rules without jargon"], "location": "Remote", "pay": "Per article" },
+  { "title": "Regulatory researcher", "type": "Part-time", "summary": "Track SEBI, RBI, IFSCA and Income Tax changes, verify fund-house policies and keep our directories accurate.", "points": ["Comfort reading circulars and notifications", "Methodical record-keeping", "Indian capital-markets background a plus"], "location": "Remote (India time zone preferred)", "pay": "Hourly" },
+  { "title": "Partnerships lead", "type": "Commission-based", "summary": "Bring on banks, brokers, GIFT City platforms, RIAs and cross-border tax firms as sponsors and referral partners.", "points": ["Network in Indian wealth management or NRI banking", "Comfortable with compliance-aware selling", "North America, UK or Gulf presence a plus"], "location": "Remote", "pay": "Commission plus retainer" },
+  { "title": "Video creator", "type": "Freelance", "summary": "Produce short explainers on NRI investing topics for YouTube and social channels.", "points": ["A portfolio of explainer videos", "Clear on-camera or voice-over delivery", "Hindi a plus"], "location": "Remote", "pay": "Per video" },
+  { "title": "Community moderator", "type": "Part-time", "summary": "Run our reader community, answer questions with links to guides and escalate leads to the expert desk.", "points": ["Patient, accurate and friendly", "Knows the difference between information and advice", "Weekend availability"], "location": "Remote", "pay": "Monthly stipend" },
+  { "title": "Front-end developer", "type": "Contract", "summary": "Improve our calculators and checkers, accessibility and page speed on a static, data-driven site.", "points": ["Strong HTML, CSS and vanilla JavaScript", "Care for accessibility and performance", "Experience with GitHub Actions a plus"], "location": "Remote", "pay": "Project-based" }
+ ]
+}

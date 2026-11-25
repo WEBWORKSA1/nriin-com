@@ -1,0 +1,40 @@
+{
+ "_note": "Edit freely. newsQueries = Google News searches (tags drive topic filters); rss = regulator feeds (filtered to non-resident topics for the Regulatory radar); videoQueries = YouTube topics (searched daily; uses the YouTube Data API when a YOUTUBE_API_KEY secret exists, otherwise public search results); youtubeChannels = optional channels by id ('UC…') or @handle.",
+ "newsQueries": [
+  { "q": "NRI investment India", "tags": ["general"] },
+  { "q": "NRI mutual fund", "tags": ["mf"] },
+  { "q": "NRI KYC SEBI", "tags": ["kyc"] },
+  { "q": "mutual fund KYC NRI validated", "tags": ["kyc", "mf"] },
+  { "q": "OCI cardholder investment India", "tags": ["oci"] },
+  { "q": "GIFT City NRI", "tags": ["gift"] },
+  { "q": "NRI income tax India", "tags": ["tax"] },
+  { "q": "NRI TDS capital gains", "tags": ["tax"] },
+  { "q": "NRE NRO account rules", "tags": ["banking"] },
+  { "q": "RBI NRI deposit", "tags": ["banking"] },
+  { "q": "FEMA non-resident investment", "tags": ["stocks"] },
+  { "q": "NRI stock market portfolio investment scheme", "tags": ["stocks"] },
+  { "q": "PFIC Indian mutual funds", "tags": ["us", "tax"] },
+  { "q": "NRI USA India investment", "tags": ["us"] },
+  { "q": "NRI Canada India investment", "tags": ["canada"] },
+  { "q": "NRI UAE India investment", "tags": ["uae"] },
+  { "q": "NRI UK India investment", "tags": ["uk"] },
+  { "q": "India DTAA tax treaty NRI", "tags": ["tax"] },
+  { "q": "NRI remittance rupee", "tags": ["banking"] }
+ ],
+ "rss": [
+  { "name": "SEBI", "url": "https://www.sebi.gov.in/sebirss.xml", "tags": ["regulator"] },
+  { "name": "RBI notifications", "url": "https://www.rbi.org.in/notifications_rss.xml", "tags": ["regulator"] },
+  { "name": "RBI press releases", "url": "https://www.rbi.org.in/pressreleases_rss.xml", "tags": ["regulator"] }
+ ],
+ "videoQueries": [
+  ["NRI mutual fund KYC", "NRI mutual fund KYC process"],
+  ["NRE vs NRO account", "NRE vs NRO account explained"],
+  ["Opening an NRI demat account", "NRI demat account opening process"],
+  ["PFIC and Indian mutual funds", "PFIC Indian mutual funds US NRI"],
+  ["NRI capital gains tax", "NRI capital gains tax India"],
+  ["GIFT City for NRIs", "GIFT City investment for NRI"],
+  ["OCI card and investing", "OCI card holder invest in India"],
+  ["Repatriation and Form 15CA/15CB", "NRI repatriation 15CA 15CB"]
+ ],
+ "youtubeChannels": []
+}

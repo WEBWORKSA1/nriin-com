@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Disallow: /data/lastmod.json
+Disallow: /data/refresh-log.json
+
+Sitemap: https://nriin.com/sitemap.xml

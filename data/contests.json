@@ -1,0 +1,8 @@
+{
+ "_note": "Contests shown on /contests. status: upcoming | open | judging | closed. Publish final rules and prize funding before switching a contest to 'open'.",
+ "contests": [
+  { "id": "paperwork-story", "status": "upcoming", "statusLabel": "Opening soon — register interest", "title": "My India paperwork story", "summary": "Tell us the strangest, longest or most frustrating thing that happened while opening an account, fixing KYC or getting money out of India — and how you solved it.", "prize": "Featured story plus gift-card prizes for the top three entries", "who": "NRIs, OCIs and their families, worldwide", "timeline": "Entry window opens after 3 December 2026" },
+  { "id": "best-tip", "status": "upcoming", "statusLabel": "Opening soon — register interest", "title": "Best practical tip of the month", "summary": "Share one tip that saved you time or money investing in India from abroad. Winning tips are published with credit in our daily tip rotation.", "prize": "Monthly winner: gift card and a credit on the site", "who": "Anyone who has invested in India from abroad", "timeline": "Monthly, from January 2027" },
+  { "id": "explain-it", "status": "upcoming", "statusLabel": "Opening soon — register interest", "title": "Explain it in 60 seconds (video)", "summary": "Make a short video explaining one NRI investing rule — NRE vs NRO, PIS, PFIC or KYC status — clearly enough for a first-timer.", "prize": "Top videos featured on our videos page, plus cash prizes", "who": "Creators, students and finance professionals", "timeline": "Quarterly, from Q1 2027" }
+ ]
+}

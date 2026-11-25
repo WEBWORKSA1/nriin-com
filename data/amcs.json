@@ -1,0 +1,182 @@
+{
+ "_note": "Fund houses reported to accept US and Canada resident NRIs. Edit 'mode', 'conditions', 'lastVerified' and 'sources' when you confirm a change. 'watch' is filled automatically by scripts/refresh.mjs (daily website check).",
+ "lastReviewed": "2026-11-25",
+ "amcs": [
+  {
+   "id": "sbi",
+   "name": "SBI Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Offline only",
+   "conditions": "Signed FATCA-related declaration with a paper application.",
+   "site": "https://www.sbimf.com",
+   "registrar": "CAMS",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "icici",
+   "name": "ICICI Prudential Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Offline only",
+   "conditions": "Signed declaration submitted with the application.",
+   "site": "https://www.icicipruamc.com",
+   "registrar": "CAMS",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "absl",
+   "name": "Aditya Birla Sun Life Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Online reported",
+   "conditions": "FATCA declaration during onboarding. Some investors report paper-only processing; confirm before applying.",
+   "site": "https://mutualfund.adityabirlacapital.com",
+   "registrar": "CAMS",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "uti",
+   "name": "UTI Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Offline (confirm current mode)",
+   "conditions": "Standard NRI KYC plus declaration.",
+   "site": "https://www.utimf.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "nippon",
+   "name": "Nippon India Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Offline (confirm current mode)",
+   "conditions": "Standard NRI KYC plus declaration.",
+   "site": "https://mf.nipponindiaim.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "canara",
+   "name": "Canara Robeco Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Mode and conditions not published in our sources; ask the fund house.",
+   "site": "https://www.canararobeco.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "hsbc",
+   "name": "HSBC Mutual Fund (formerly L&T)",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Listed under its former L&T name in earlier sources; confirm with the fund house.",
+   "site": "https://www.assetmanagement.hsbc.co.in",
+   "registrar": "CAMS",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "ppfas",
+   "name": "PPFAS Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Mode and conditions not published in our sources; ask the fund house.",
+   "site": "https://amc.ppfas.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "sundaram",
+   "name": "Sundaram Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Mode and conditions not published in our sources; ask the fund house.",
+   "site": "https://www.sundarammutual.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "tata",
+   "name": "Tata Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Mode and conditions not published in our sources; ask the fund house.",
+   "site": "https://www.tatamutualfund.com",
+   "registrar": "CAMS",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  },
+  {
+   "id": "quant",
+   "name": "Quant Mutual Fund",
+   "us": "yes",
+   "ca": "yes",
+   "mode": "Not stated",
+   "conditions": "Some investors report online access has been withdrawn; confirm before applying.",
+   "site": "https://quantmutual.com",
+   "registrar": "KFintech",
+   "lastVerified": "2026-06-27",
+   "sources": [
+    "dealplexus-2026",
+    "zerodha-2025"
+   ]
+  }
+ ],
+ "sources": {
+  "dealplexus-2026": {
+   "name": "Dealplexus — NRI mutual fund restrictions (27 Jun 2026)",
+   "url": "https://www.dealplexus.com/blog/nri-mutual-fund-restrictions-kyc"
+  },
+  "zerodha-2025": {
+   "name": "Zerodha Varsity — Can US/Canada NRIs invest in Indian MFs? (17 Sep 2025)",
+   "url": "https://zerodha.com/z-connect/varsity/can-us-canada-nris-invest-in-indian-mutual-funds"
+  }
+ },
+ "watch": {}
+}

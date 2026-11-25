@@ -1,0 +1,11 @@
+{
+ "_note": "Dated rule changes shown on the homepage and /updates. Add new entries at the top; the build sorts by date and marks past ones as in effect automatically.",
+ "events": [
+  { "date": "2026-12-03", "title": "Digital KYC from abroad goes live", "body": "SEBI's November 2026 circular lets NRIs, OCIs and foreign nationals in FATF-compliant countries complete KYC and video verification without being in India.", "url": "/guides/sebi-digital-kyc-from-abroad", "tag": "KYC" },
+  { "date": "2026-10-01", "title": "No TAN needed to buy property from an NRI", "body": "Resident individual buyers can deduct and report tax on purchases from NRI sellers using their PAN, simplifying property sales by non-residents.", "url": "/guides/nri-tds-capital-gains", "tag": "Tax" },
+  { "date": "2026-06-12", "title": "Listed shares opened to all overseas individuals", "body": "FEMA amendment raises the individual limit to 10% and the aggregate limit to 24%, and extends the route beyond NRIs and OCIs.", "url": "/guides/pis-explained", "tag": "Stocks" },
+  { "date": "2026-04-30", "title": "“Registered” KYC relaxation ended", "body": "The last extension treating NRIs with Registered status as Validated ran to this date. Check your live status before investing.", "url": "/guides/kyc-for-nris", "tag": "KYC" },
+  { "date": "2026-04-01", "title": "Income-tax Act, 2025 takes effect", "body": "The new Act replaces the 1961 Act. Non-resident withholding moves to section 393; “tax year” replaces previous year and assessment year.", "url": "/guides/nri-tds-capital-gains", "tag": "Tax" },
+  { "date": "2026-02-01", "title": "Union Budget 2026 announces higher limits", "body": "The Budget proposed doubling the individual limit for overseas individuals investing in listed Indian shares.", "url": "/guides/pis-explained", "tag": "Stocks" }
+ ]
+}

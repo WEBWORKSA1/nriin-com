@@ -1,0 +1,92 @@
+name: Refresh & publish (GitHub Pages)
+
+on:
+  schedule:
+    - cron: '23 0,12 * * *'   # 05:53 and 17:53 IST, every day
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-and-publish
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      build_type: ${{ steps.pages.outputs.build_type }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Pull fresh news, regulator items, videos, rates and fund-house checks
+        run: node scripts/refresh.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Build pages, sitemap, feed and search index (fails on guardrail breach)
+        run: node scripts/build.mjs
+      - name: Record GitHub Pages status
+        id: pages
+        run: |
+          H=(-s -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json")
+          curl "${H[@]}" "https://api.github.com/repos/${{ github.repository }}/pages" > /tmp/pages.json || echo '{}' > /tmp/pages.json
+          curl "${H[@]}" "https://api.github.com/repos/${{ github.repository }}/pages/builds/latest" > /tmp/build.json || echo '{}' > /tmp/build.json
+          node -e "const r=f=>{try{return JSON.parse(require('fs').readFileSync(f,'utf8'))}catch(e){return {}}};const p=r('/tmp/pages.json'),b=r('/tmp/build.json');require('fs').writeFileSync('data/pages-status.json',JSON.stringify({site:p.html_url,status:p.status,build_type:p.build_type,source:p.source,cname:p.cname,https_enforced:p.https_enforced,latest_build:{status:b.status,commit:b.commit,created_at:b.created_at,error:b.error&&b.error.message}},null,1));console.log('build_type='+(p.build_type||''))" >> "$GITHUB_OUTPUT"
+      - name: Commit and push
+        run: |
+          git config user.name "nriin-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily refresh $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M IST')"
+          git pull --rebase --autostash origin main || true
+          git push
+      # Branch-published Pages (Settings > Pages > Deploy from a branch: main / root):
+      # bot commits do not trigger a Pages build on their own, so request one explicitly.
+      - name: Publish (branch-based Pages build)
+        if: steps.pages.outputs.build_type == 'legacy'
+        run: |
+          curl -s -X POST -H "Authorization: Bearer ${{ github.token }}" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"
+
+  # Actions-published Pages (Settings > Pages > Source: GitHub Actions): upload only public files.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.build_type == 'workflow'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Assemble the public site (repo-only files excluded)
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='scripts' --exclude='_site' \
+            --exclude='README.md' --exclude='.gitignore' --exclude='data/lastmod.json' \
+            --exclude='data/refresh-log.json' --exclude='data/pages-status.json' ./ _site/
+          touch _site/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+        with:
+          enablement: true
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
