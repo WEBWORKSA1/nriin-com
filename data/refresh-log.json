@@ -1,0 +1,127 @@
+{
+ "started": "2026-11-25T17:59:33.428Z",
+ "feeds": [
+  {
+   "q": "NRI investment India",
+   "n": 15
+  },
+  {
+   "q": "NRI mutual fund",
+   "n": 15
+  },
+  {
+   "q": "NRI KYC SEBI",
+   "n": 15
+  },
+  {
+   "q": "mutual fund KYC NRI validated",
+   "n": 9
+  },
+  {
+   "q": "OCI cardholder investment India",
+   "n": 13
+  },
+  {
+   "q": "GIFT City NRI",
+   "n": 15
+  },
+  {
+   "q": "NRI income tax India",
+   "n": 15
+  },
+  {
+   "q": "NRI TDS capital gains",
+   "n": 9
+  },
+  {
+   "q": "NRE NRO account rules",
+   "n": 10
+  },
+  {
+   "q": "RBI NRI deposit",
+   "n": 15
+  },
+  {
+   "q": "FEMA non-resident investment",
+   "n": 15
+  },
+  {
+   "q": "NRI stock market portfolio investment scheme",
+   "n": 7
+  },
+  {
+   "q": "PFIC Indian mutual funds",
+   "n": 1
+  },
+  {
+   "q": "NRI USA India investment",
+   "n": 6
+  },
+  {
+   "q": "NRI Canada India investment",
+   "n": 15
+  },
+  {
+   "q": "NRI UAE India investment",
+   "n": 15
+  },
+  {
+   "q": "NRI UK India investment",
+   "n": 15
+  },
+  {
+   "q": "India DTAA tax treaty NRI",
+   "n": 10
+  },
+  {
+   "q": "NRI remittance rupee",
+   "n": 9
+  },
+  {
+   "rss": "SEBI",
+   "n": 0,
+   "total": 0
+  },
+  {
+   "rss": "RBI notifications",
+   "n": 0,
+   "total": 10
+  },
+  {
+   "rss": "RBI press releases",
+   "n": 0,
+   "total": 10
+  },
+  {
+   "yt": "NRI mutual fund KYC"
+  },
+  {
+   "yt": "NRE vs NRO account"
+  },
+  {
+   "yt": "Opening an NRI demat account"
+  },
+  {
+   "yt": "PFIC and Indian mutual funds"
+  },
+  {
+   "yt": "NRI capital gains tax"
+  },
+  {
+   "yt": "GIFT City for NRIs"
+  },
+  {
+   "yt": "OCI card and investing"
+  },
+  {
+   "yt": "Repatriation and Form 15CA/15CB"
+  }
+ ],
+ "errors": [],
+ "news": 93,
+ "videos": 28,
+ "fx": 92.9252,
+ "watch": 11,
+ "brief": "extractive",
+ "finished": "2026-11-25T18:01:16.655Z"
+}
