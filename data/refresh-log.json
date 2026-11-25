@@ -1,5 +1,5 @@
 {
- "started": "2026-11-25T17:59:33.428Z",
+ "started": "2026-11-25T18:18:05.316Z",
  "feeds": [
   {
    "q": "NRI investment India",
@@ -19,7 +19,7 @@
   },
   {
    "q": "OCI cardholder investment India",
-   "n": 13
+   "n": 12
   },
   {
    "q": "GIFT City NRI",
@@ -118,10 +118,10 @@
   }
  ],
  "errors": [],
- "news": 93,
- "videos": 28,
+ "news": 97,
+ "videos": 39,
  "fx": 92.9252,
  "watch": 11,
  "brief": "extractive",
- "finished": "2026-11-25T18:01:16.655Z"
+ "finished": "2026-11-25T18:19:44.789Z"
 }

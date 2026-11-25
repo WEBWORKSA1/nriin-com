@@ -1,6 +1,17 @@
 {
- "status": "404",
+ "site": "http://nriin.com/",
+ "status": "built",
+ "build_type": "legacy",
+ "source": {
+  "branch": "main",
+  "path": "/"
+ },
+ "cname": "nriin.com",
+ "https_enforced": false,
  "latest_build": {
-  "status": "404"
+  "status": "built",
+  "commit": "686474c1a67debafa8a8e8cca6b480ac9c3b5d44",
+  "created_at": "2026-11-25T18:17:55Z",
+  "error": null
  }
 }

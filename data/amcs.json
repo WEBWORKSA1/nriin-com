@@ -236,8 +236,9 @@
   "tata": {
    "checked": "2026-11-25",
    "ok": true,
-   "hash": "03644ed912d2",
-   "mentions": 4
+   "hash": "7d9bbd5f43b5",
+   "mentions": 4,
+   "changed": "2026-11-25"
   },
   "quant": {
    "checked": "2026-11-25",
