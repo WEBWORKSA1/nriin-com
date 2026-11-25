@@ -19,6 +19,8 @@
   --warn-soft: #fbf0dc;
   --stop: #b8302a;
   --stop-soft: #fbe6e4;
+  --saffron: #f2791c;
+  --india-green: #138808;
   --r-sm: 6px;
   --r: 10px;
   --r-lg: 16px;
@@ -70,6 +72,12 @@ small { font-size: .82em; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .brand .mark { width: 40px; height: 40px; color: var(--stamp); flex: none; }
 .brand-tx b { display: block; font-size: 1.32rem; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+.wm { white-space: nowrap; letter-spacing: -.02em; }
+.wm-nri { font-weight: 900; font-size: 1.1em; letter-spacing: .005em; color: var(--ink); }
+.wm-i { color: var(--saffron); font-weight: 800; }
+.wm-n { color: var(--india-green); font-weight: 800; }
+.mark .mk-i { fill: var(--saffron); }
+.mark .mk-n { fill: var(--india-green); }
 .brand-tx small { display: block; color: var(--ink-3); font-size: .72rem; margin-top: 3px; }
 .main-nav { display: flex; gap: 2px; margin-left: auto; align-items: center; }
 .main-nav > a, .nav-dd-trigger { color: var(--ink); text-decoration: none; font-weight: 600; font-size: .95rem; padding: 10px 11px; border-radius: var(--r-sm); display: inline-flex; align-items: center; gap: 6px; }
@@ -358,8 +366,11 @@ main { display: block; }
 .ft-grid { display: grid; grid-template-columns: 1.6fr repeat(4, 1fr); gap: 28px; }
 .fcol b { display: block; color: #fff; margin-bottom: 10px; }
 .fcol a { display: block; padding: 3px 0; }
-.brand-ft { color: #fff; margin-bottom: 12px; }
+.fcol .brand-ft { display: flex; align-items: center; gap: 10px; color: #fff; margin-bottom: 12px; padding: 0; }
 .brand-ft .mark { color: #cbbcff; }
+.brand-ft .wm-nri { color: #fff; }
+.brand-ft .wm-i, .brand-ft .mark .mk-i { color: #ff9f43; fill: #ff9f43; }
+.brand-ft .wm-n, .brand-ft .mark .mk-n { color: #3ccf63; fill: #3ccf63; }
 .brand-ft:hover { text-decoration: none !important; }
 .fraud { display: flex; gap: 10px; background: rgba(255, 255, 255, .05); border: 1px solid #2a3756; border-radius: var(--r-sm); padding: 12px; font-size: .84rem; }
 .fraud svg { width: 22px; height: 22px; flex: none; color: #8fd3bd; }

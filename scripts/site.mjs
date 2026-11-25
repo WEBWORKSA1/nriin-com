@@ -25,7 +25,10 @@ const I = {
 export const ICONS = I;
 
 // The brand mark: a round passport-control stamp with "in" at its centre.
-export const MARK = `<svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.4 2.2"/><text x="24" y="30.5" text-anchor="middle" font-family="Schibsted Grotesk, Arial, sans-serif" font-weight="800" font-size="17" fill="currentColor">in</text></svg>`;
+export const MARK = `<svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.4 2.2"/><text x="24" y="30.5" text-anchor="middle" font-family="Schibsted Grotesk, Arial, sans-serif" font-weight="800" font-size="17"><tspan class="mk-i">i</tspan><tspan class="mk-n">n</tspan></text></svg>`;
+
+// The wordmark: "NRI" heaviest and slightly larger; "i" saffron orange, "n" India green.
+export const WORDMARK = '<span class="wm"><span class="wm-nri">NRI</span><span class="wm-i">i</span><span class="wm-n">n</span></span>';
 
 const dd = (label, href, items) =>
   `<div class="nav-dd"><a href="${href}" class="nav-dd-trigger">${label}<span class="caret" aria-hidden="true"></span></a><div class="nav-dd-menu">` +
@@ -71,7 +74,7 @@ export function header({ stamp, usdinr }) {
 <div class="util-r"><span class="clock" title="Time in India">India <b data-ni-ist>--:--</b></span><a class="fx-chip" href="/rates" title="Rupees per US dollar">USD/INR <b data-ni-fx="USD">${esc(usdinr || '—')}</b></a></div>
 </div></div>
 <header class="site-hd"><div class="wrap hd-in">
-<a href="/" class="brand" aria-label="NRIin home">${MARK}<span class="brand-tx"><b>NRIin</b><small>${esc(SITE.tagline)}</small></span></a>
+<a href="/" class="brand" aria-label="NRIin home">${MARK}<span class="brand-tx"><b>${WORDMARK}</b><small>${esc(SITE.tagline)}</small></span></a>
 <nav class="main-nav" aria-label="Main">${dd('Tools', '/kyc-checker', NAV.tools)}<a href="/guides/">Guides</a>${dd('By country', '/countries/usa', NAV.countries)}<a href="/updates" class="nav-live"><span class="live-dot" aria-hidden="true"></span>Updates</a><a href="/videos">Videos</a>${dd('More', '/advertise', NAV.more)}</nav>
 <div class="hd-actions"><button type="button" class="icon-btn" data-ni-search aria-label="Search the site">${I.search}</button><a href="/get-help" class="btn btn-stamp btn-sm">Get expert help</a><button type="button" class="icon-btn menu-btn" data-ni-menu aria-label="Open menu" aria-expanded="false" aria-controls="mnav">${I.menu}</button></div>
 </div>
@@ -95,7 +98,7 @@ export function footer({ stamp, year }) {
 <button type="submit" class="btn btn-stamp">Subscribe</button><p class="form-msg" role="status" aria-live="polite"></p></form></div></section>
 <footer class="site-ft"><div class="wrap">
 <div class="ft-grid">
-<div class="fcol fbrand"><a href="/" class="brand brand-ft" aria-label="NRIin home">${MARK}<span class="brand-tx"><b>NRIin</b></span></a><p>Free, independent tools and plain-language guides for Non-Resident Indians and OCI cardholders investing in Indian stocks and mutual funds. Refreshed every day from regulators, tax authorities and the press.</p><p class="fraud">${I.shield}<span><b>Stay safe.</b> We never ask for passwords, OTPs or card numbers, and we never hold your money. Anyone promising guaranteed returns or “instant KYC approval” for a fee is not us.</span></p></div>
+<div class="fcol fbrand"><a href="/" class="brand brand-ft" aria-label="NRIin home">${MARK}<span class="brand-tx"><b>${WORDMARK}</b></span></a><p>Free, independent tools and plain-language guides for Non-Resident Indians and OCI cardholders investing in Indian stocks and mutual funds. Refreshed every day from regulators, tax authorities and the press.</p><p class="fraud">${I.shield}<span><b>Stay safe.</b> We never ask for passwords, OTPs or card numbers, and we never hold your money. Anyone promising guaranteed returns or “instant KYC approval” for a fee is not us.</span></p></div>
 ${col('Tools', NAV.tools.slice(0, 8).map(([t, h]) => [t, h]))}
 ${col('Learn', [['All guides', '/guides/'], ['Daily updates', '/updates'], ['Videos', '/videos'], ['Free checklist', '/checklist'], ['United States', '/countries/usa'], ['Canada', '/countries/canada'], ['United Kingdom', '/countries/uk'], ['UAE', '/countries/uae'], ['Search', '/search']])}
 ${col('Company', [['About', '/about'], ['Contact', '/contact'], ['Get expert help', '/get-help'], ['For professionals', '/for-professionals'], ['Careers', '/careers'], ['Contests', '/contests'], ['Support NRIin', '/support'], ['Advertise & partner', '/advertise'], ['Editorial policy', '/editorial-policy']])}

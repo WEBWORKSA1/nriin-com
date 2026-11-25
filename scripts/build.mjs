@@ -267,7 +267,7 @@ ${GOTD ? `<a class="tool" href="/guides/${GOTD.slug}"><span>Guide of the day</sp
 };
 
 // ---------- head normalisation ----------
-const FONT = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">';
+const FONT = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap">';
 function normalizeHead(html, file) {
   const isNoindex = /<meta name="robots" content="noindex/i.test(html);
   const noAds = isNoindex || /data-noads/.test(html) || file === '404.html';
@@ -276,7 +276,8 @@ function normalizeHead(html, file) {
   const add = [];
   add.push(`<meta name="google-adsense-account" content="${SITE.adsenseClient}">`);
   if (!noAds) add.push(`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}" crossorigin="anonymous"></script>`);
-  if (!/fonts\.googleapis\.com\/css2/.test(html)) add.push(FONT);
+  html = html.replace(/<link rel="preconnect" href="https:\/\/fonts\.googleapis\.com">[^\n]*?display=swap">\s*/g, '');
+  add.push(FONT);
   if (!/href="\/styles\.css"/.test(html)) add.push('<link rel="stylesheet" href="/styles.css">');
   if (!/property="og:image"/.test(html)) add.push(`<meta property="og:image" content="${SITE.origin}/og-image.png">`);
   if (!/name="twitter:image"/.test(html)) add.push(`<meta name="twitter:image" content="${SITE.origin}/og-image.png">`);
