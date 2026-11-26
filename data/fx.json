@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:19:20.948Z",
+ "updated": "2026-11-26T08:39:48.146Z",
  "source": "ExchangeRate-API (open access)",
  "base": "INR per unit of currency",
  "rates": {
@@ -23,6 +23,16 @@
  "history": [
   {
    "d": "2026-11-25",
+   "USD": 92.9252,
+   "CAD": 65.0226,
+   "GBP": 121.7464,
+   "EUR": 101.8415,
+   "AED": 25.303,
+   "SGD": 72.039,
+   "AUD": 61.6516
+  },
+  {
+   "d": "2026-11-26",
    "USD": 92.9252,
    "CAD": 65.0226,
    "GBP": 121.7464,

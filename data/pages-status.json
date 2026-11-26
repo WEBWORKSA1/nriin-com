@@ -1,5 +1,5 @@
 {
- "site": "http://nriin.com/",
+ "site": "https://nriin.com/",
  "status": "built",
  "build_type": "legacy",
  "source": {
@@ -7,11 +7,11 @@
   "path": "/"
  },
  "cname": "nriin.com",
- "https_enforced": false,
+ "https_enforced": true,
  "latest_build": {
   "status": "built",
-  "commit": "686474c1a67debafa8a8e8cca6b480ac9c3b5d44",
-  "created_at": "2026-11-25T18:17:55Z",
+  "commit": "57725e0ce95eda296f3a17cc3748672777fe22cb",
+  "created_at": "2026-11-25T18:19:47Z",
   "error": null
  }
 }
