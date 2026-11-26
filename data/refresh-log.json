@@ -1,5 +1,5 @@
 {
- "started": "2026-11-26T08:38:33.744Z",
+ "started": "2026-11-26T21:44:39.963Z",
  "feeds": [
   {
    "q": "NRI investment India",
@@ -15,7 +15,7 @@
   },
   {
    "q": "mutual fund KYC NRI validated",
-   "n": 10
+   "n": 15
   },
   {
    "q": "OCI cardholder investment India",
@@ -31,11 +31,11 @@
   },
   {
    "q": "NRI TDS capital gains",
-   "n": 10
+   "n": 9
   },
   {
    "q": "NRE NRO account rules",
-   "n": 9
+   "n": 11
   },
   {
    "q": "RBI NRI deposit",
@@ -47,7 +47,7 @@
   },
   {
    "q": "NRI stock market portfolio investment scheme",
-   "n": 15
+   "n": 9
   },
   {
    "q": "PFIC Indian mutual funds",
@@ -55,7 +55,7 @@
   },
   {
    "q": "NRI USA India investment",
-   "n": 5
+   "n": 6
   },
   {
    "q": "NRI Canada India investment",
@@ -79,7 +79,7 @@
   },
   {
    "rss": "SEBI",
-   "n": 2,
+   "n": 1,
    "total": 30
   },
   {
@@ -118,10 +118,10 @@
   }
  ],
  "errors": [],
- "news": 108,
- "videos": 44,
- "fx": 92.9252,
+ "news": 112,
+ "videos": 50,
+ "fx": 92.3452,
  "watch": 11,
  "brief": "extractive",
- "finished": "2026-11-26T08:40:13.451Z"
+ "finished": "2026-11-26T21:46:21.273Z"
 }
