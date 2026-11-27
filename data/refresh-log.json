@@ -1,5 +1,5 @@
 {
- "started": "2026-11-27T08:49:40.451Z",
+ "started": "2026-11-27T21:28:17.809Z",
  "feeds": [
   {
    "q": "NRI investment India",
@@ -47,7 +47,7 @@
   },
   {
    "q": "NRI stock market portfolio investment scheme",
-   "n": 11
+   "n": 15
   },
   {
    "q": "PFIC Indian mutual funds",
@@ -55,7 +55,7 @@
   },
   {
    "q": "NRI USA India investment",
-   "n": 12
+   "n": 11
   },
   {
    "q": "NRI Canada India investment",
@@ -75,12 +75,7 @@
   },
   {
    "q": "NRI remittance rupee",
-   "n": 8
-  },
-  {
-   "rss": "SEBI",
-   "n": 1,
-   "total": 30
+   "n": 9
   },
   {
    "rss": "RBI notifications",
@@ -117,11 +112,13 @@
    "yt": "Repatriation and Form 15CA/15CB"
   }
  ],
- "errors": [],
- "news": 118,
- "videos": 55,
+ "errors": [
+  "rss SEBI: fetch failed"
+ ],
+ "news": 129,
+ "videos": 58,
  "fx": 92.5204,
  "watch": 11,
  "brief": "extractive",
- "finished": "2026-11-27T08:51:17.513Z"
+ "finished": "2026-11-27T21:30:03.599Z"
 }

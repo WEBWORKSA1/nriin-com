@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:50:52.742Z",
+ "updated": "2026-11-27T21:29:39.036Z",
  "topics": [
   [
    "NRI mutual fund KYC",
@@ -35,6 +35,30 @@
   ]
  ],
  "items": [
+  {
+   "id": "kNXInEJhjeM",
+   "title": "₹50 Lakh Stuck: NRI Demat Mistake You Must Avoid",
+   "channel": "FinNiki",
+   "date": "2026-11-27T21:29:25.652Z",
+   "topic": "Opening an NRI demat account",
+   "via": "search"
+  },
+  {
+   "id": "i79wLqAPCsE",
+   "title": "How to transfer money from NRO to NRE account? 2026 Update",
+   "channel": "NRI Money Clinic",
+   "date": "2026-11-27T21:29:23.630Z",
+   "topic": "NRE vs NRO account",
+   "via": "search"
+  },
+  {
+   "id": "FXtK8LC87Jk",
+   "title": "NRIs: KYC Finally Made Easy! OCI Penalty Waived + 3 BIG Updates",
+   "channel": "NRI Money Clinic",
+   "date": "2026-11-27T21:29:21.519Z",
+   "topic": "NRI mutual fund KYC",
+   "via": "search"
+  },
   {
    "id": "vnLOfl_k7cQ",
    "title": "Can OCI Cardholders Start a Business in India? #OCI #nri #business #startup #investinindia #tips",
@@ -196,14 +220,6 @@
    "via": "search"
   },
   {
-   "id": "A9immgJ6RSE",
-   "title": "PFIC #2 for NRIs 2026 | Sold Indian Mutual Funds? Here's Why IRS Can Take 50% of Your Gains",
-   "channel": "iLead Tax LLC",
-   "date": "2026-11-25T18:19:08.144Z",
-   "topic": "PFIC and Indian mutual funds",
-   "via": "search"
-  },
-  {
    "id": "INhuJtLb2l0",
    "title": "U.S. Tax Trap on Indian Assets: FBAR, FATCA & PFIC Rules Exposed| Indians In U.S.",
    "channel": "TimesXP",
@@ -214,6 +230,14 @@
   {
    "id": "qbGDL-UHS2M",
    "title": "PFIC #1 for NRIs 2026 | Why Indian Mutual Funds Become Tax Nightmare in USA",
+   "channel": "iLead Tax LLC",
+   "date": "2026-11-25T18:19:08.144Z",
+   "topic": "PFIC and Indian mutual funds",
+   "via": "search"
+  },
+  {
+   "id": "A9immgJ6RSE",
+   "title": "PFIC #2 for NRIs 2026 | Sold Indian Mutual Funds? Here's Why IRS Can Take 50% of Your Gains",
    "channel": "iLead Tax LLC",
    "date": "2026-11-25T18:19:08.144Z",
    "topic": "PFIC and Indian mutual funds",
@@ -268,17 +292,17 @@
    "via": "search"
   },
   {
-   "id": "va7VD_RjrwE",
-   "title": "NRI Repatriation: Why Your Money Gets Stuck & How to Fix It",
-   "channel": "FinNiki",
+   "id": "KLab2jbspKM",
+   "title": "NRI Investing & Repatriation 2026 | NRE vs NRO, FEMA, Property TDS & Tax Explained",
+   "channel": "PROFIT FROM IT",
    "date": "2026-11-25T18:00:46.662Z",
    "topic": "Repatriation and Form 15CA/15CB",
    "via": "search"
   },
   {
-   "id": "KLab2jbspKM",
-   "title": "NRI Investing & Repatriation 2026 | NRE vs NRO, FEMA, Property TDS & Tax Explained",
-   "channel": "PROFIT FROM IT",
+   "id": "va7VD_RjrwE",
+   "title": "NRI Repatriation: Why Your Money Gets Stuck & How to Fix It",
+   "channel": "FinNiki",
    "date": "2026-11-25T18:00:46.662Z",
    "topic": "Repatriation and Form 15CA/15CB",
    "via": "search"
@@ -380,6 +404,14 @@
    "via": "search"
   },
   {
+   "id": "UrJ1QQcZBUs",
+   "title": "Your Demat Account Is Illegal If You’re an NRI? | FEMA Rules Explained",
+   "channel": "FEMA Consultant",
+   "date": "2026-11-25T18:00:33.783Z",
+   "topic": "Opening an NRI demat account",
+   "via": "search"
+  },
+  {
    "id": "t9IT5j9LJbM",
    "title": "Zerodha NRI Account Opening தெளிவான விளக்கம்..! | Tamil support | Doorstep Help !!? | February-2026",
    "channel": "Brokerage Free - Investments",
@@ -396,14 +428,6 @@
    "via": "search"
   },
   {
-   "id": "UrJ1QQcZBUs",
-   "title": "Your Demat Account Is Illegal If You’re an NRI? | FEMA Rules Explained",
-   "channel": "FEMA Consultant",
-   "date": "2026-11-25T18:00:33.783Z",
-   "topic": "Opening an NRI demat account",
-   "via": "search"
-  },
-  {
    "id": "U8yOc9-oA3I",
    "title": "Latest updates on investing and trading in India for NRIs",
    "channel": "Zerodha",
@@ -412,17 +436,17 @@
    "via": "search"
   },
   {
-   "id": "uJ7UE9YtXKU",
-   "title": "NRE or NRO Account? Which Account Should NRIs Use in India (2026 Guide)",
-   "channel": "Rambabu Chollangi, CFA",
+   "id": "Z_b5mqylKpw",
+   "title": "NRIs: Don’t Send Money to India Before Watching This (NRE vs NRO)",
+   "channel": "MoneywithSwAbi",
    "date": "2026-11-25T18:00:31.673Z",
    "topic": "NRE vs NRO account",
    "via": "search"
   },
   {
-   "id": "Z_b5mqylKpw",
-   "title": "NRIs: Don’t Send Money to India Before Watching This (NRE vs NRO)",
-   "channel": "MoneywithSwAbi",
+   "id": "uJ7UE9YtXKU",
+   "title": "NRE or NRO Account? Which Account Should NRIs Use in India (2026 Guide)",
+   "channel": "Rambabu Chollangi, CFA",
    "date": "2026-11-25T18:00:31.673Z",
    "topic": "NRE vs NRO account",
    "via": "search"
@@ -452,17 +476,17 @@
    "via": "search"
   },
   {
-   "id": "YfmmGmLZt7g",
-   "title": "KYC for NRI & OCI Mutual Fund Investments: Process, Documents & Change Status 2026 #kyc #mutualfunds",
-   "channel": "HelpOci",
+   "id": "bpEo471Covw",
+   "title": "Your KYC Is Probably Expiring (And How to Fix It)",
+   "channel": "NRI Money Clinic",
    "date": "2026-11-25T18:00:29.655Z",
    "topic": "NRI mutual fund KYC",
    "via": "search"
   },
   {
-   "id": "bpEo471Covw",
-   "title": "Your KYC Is Probably Expiring (And How to Fix It)",
-   "channel": "NRI Money Clinic",
+   "id": "YfmmGmLZt7g",
+   "title": "KYC for NRI & OCI Mutual Fund Investments: Process, Documents & Change Status 2026 #kyc #mutualfunds",
+   "channel": "HelpOci",
    "date": "2026-11-25T18:00:29.655Z",
    "topic": "NRI mutual fund KYC",
    "via": "search"
