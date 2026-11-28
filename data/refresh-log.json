@@ -1,5 +1,5 @@
 {
- "started": "2026-11-27T21:28:17.809Z",
+ "started": "2026-11-28T08:06:29.823Z",
  "feeds": [
   {
    "q": "NRI investment India",
@@ -15,11 +15,11 @@
   },
   {
    "q": "mutual fund KYC NRI validated",
-   "n": 15
+   "n": 10
   },
   {
    "q": "OCI cardholder investment India",
-   "n": 13
+   "n": 10
   },
   {
    "q": "GIFT City NRI",
@@ -35,7 +35,7 @@
   },
   {
    "q": "NRE NRO account rules",
-   "n": 10
+   "n": 11
   },
   {
    "q": "RBI NRI deposit",
@@ -55,7 +55,7 @@
   },
   {
    "q": "NRI USA India investment",
-   "n": 11
+   "n": 5
   },
   {
    "q": "NRI Canada India investment",
@@ -76,6 +76,11 @@
   {
    "q": "NRI remittance rupee",
    "n": 9
+  },
+  {
+   "rss": "SEBI",
+   "n": 3,
+   "total": 30
   },
   {
    "rss": "RBI notifications",
@@ -113,12 +118,12 @@
   }
  ],
  "errors": [
-  "rss SEBI: fetch failed"
+  "watch quant: This operation was aborted"
  ],
- "news": 129,
- "videos": 58,
- "fx": 92.5204,
- "watch": 11,
+ "news": 136,
+ "videos": 59,
+ "fx": 92.9761,
+ "watch": 10,
  "brief": "extractive",
- "finished": "2026-11-27T21:30:03.599Z"
+ "finished": "2026-11-28T08:08:32.756Z"
 }

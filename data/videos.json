@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:29:39.036Z",
+ "updated": "2026-11-28T08:07:44.452Z",
  "topics": [
   [
    "NRI mutual fund KYC",
@@ -36,6 +36,14 @@
  ],
  "items": [
   {
+   "id": "OmOkIBtcNhI",
+   "title": "How NRIs Can Transfer Money From India to the US: RBI Rules, Taxes & Documents Explained",
+   "channel": "NBT Tech-Ed",
+   "date": "2026-11-28T08:07:34.409Z",
+   "topic": "NRI capital gains tax",
+   "via": "search"
+  },
+  {
    "id": "kNXInEJhjeM",
    "title": "₹50 Lakh Stuck: NRI Demat Mistake You Must Avoid",
    "channel": "FinNiki",
@@ -56,7 +64,7 @@
    "title": "NRIs: KYC Finally Made Easy! OCI Penalty Waived + 3 BIG Updates",
    "channel": "NRI Money Clinic",
    "date": "2026-11-27T21:29:21.519Z",
-   "topic": "NRI mutual fund KYC",
+   "topic": "OCI card and investing",
    "via": "search"
   },
   {
@@ -156,17 +164,17 @@
    "via": "search"
   },
   {
-   "id": "e_LtkU6x7Dg",
-   "title": "NRI Selling Property in India? Save Capital Gains Tax Legally | Section 54, 54F, 54EC & 115F",
-   "channel": "NBT Tech-Ed",
+   "id": "3dGwl3tYVO4",
+   "title": "NRI Tax on Mutual Funds 😱 How to Legally Pay ZERO Tax (2026)",
+   "channel": "FinNiki",
    "date": "2026-11-26T08:39:38.347Z",
    "topic": "NRI capital gains tax",
    "via": "search"
   },
   {
-   "id": "3dGwl3tYVO4",
-   "title": "NRI Tax on Mutual Funds 😱 How to Legally Pay ZERO Tax (2026)",
-   "channel": "FinNiki",
+   "id": "e_LtkU6x7Dg",
+   "title": "NRI Selling Property in India? Save Capital Gains Tax Legally | Section 54, 54F, 54EC & 115F",
+   "channel": "NBT Tech-Ed",
    "date": "2026-11-26T08:39:38.347Z",
    "topic": "NRI capital gains tax",
    "via": "search"
@@ -236,16 +244,16 @@
    "via": "search"
   },
   {
-   "id": "A9immgJ6RSE",
-   "title": "PFIC #2 for NRIs 2026 | Sold Indian Mutual Funds? Here's Why IRS Can Take 50% of Your Gains",
+   "id": "cDwt5KduJHc",
+   "title": "PFIC #4 for NRIs 2026 | QEF vs MTM vs Default Rule (1291) | Which Election Saves You Before Sale?",
    "channel": "iLead Tax LLC",
    "date": "2026-11-25T18:19:08.144Z",
    "topic": "PFIC and Indian mutual funds",
    "via": "search"
   },
   {
-   "id": "cDwt5KduJHc",
-   "title": "PFIC #4 for NRIs 2026 | QEF vs MTM vs Default Rule (1291) | Which Election Saves You Before Sale?",
+   "id": "A9immgJ6RSE",
+   "title": "PFIC #2 for NRIs 2026 | Sold Indian Mutual Funds? Here's Why IRS Can Take 50% of Your Gains",
    "channel": "iLead Tax LLC",
    "date": "2026-11-25T18:19:08.144Z",
    "topic": "PFIC and Indian mutual funds",
@@ -404,14 +412,6 @@
    "via": "search"
   },
   {
-   "id": "UrJ1QQcZBUs",
-   "title": "Your Demat Account Is Illegal If You’re an NRI? | FEMA Rules Explained",
-   "channel": "FEMA Consultant",
-   "date": "2026-11-25T18:00:33.783Z",
-   "topic": "Opening an NRI demat account",
-   "via": "search"
-  },
-  {
    "id": "t9IT5j9LJbM",
    "title": "Zerodha NRI Account Opening தெளிவான விளக்கம்..! | Tamil support | Doorstep Help !!? | February-2026",
    "channel": "Brokerage Free - Investments",
@@ -431,6 +431,14 @@
    "id": "U8yOc9-oA3I",
    "title": "Latest updates on investing and trading in India for NRIs",
    "channel": "Zerodha",
+   "date": "2026-11-25T18:00:33.783Z",
+   "topic": "Opening an NRI demat account",
+   "via": "search"
+  },
+  {
+   "id": "UrJ1QQcZBUs",
+   "title": "Your Demat Account Is Illegal If You’re an NRI? | FEMA Rules Explained",
+   "channel": "FEMA Consultant",
    "date": "2026-11-25T18:00:33.783Z",
    "topic": "Opening an NRI demat account",
    "via": "search"

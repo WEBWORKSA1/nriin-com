@@ -180,71 +180,72 @@
  },
  "watch": {
   "sbi": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "icici": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "absl": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "uti": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "nippon": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "canara": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "hsbc": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "ppfas": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "da39a3ee5e6b",
    "mentions": 0
   },
   "sundaram": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
    "hash": "01f07ba95d92",
    "mentions": 2
   },
   "tata": {
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "ok": true,
-   "hash": "930f592f94f6",
+   "hash": "05d71c066b7e",
    "mentions": 4,
-   "changed": "2026-11-27"
+   "changed": "2026-11-28"
   },
   "quant": {
-   "checked": "2026-11-27",
-   "ok": true,
+   "checked": "2026-11-28",
+   "ok": false,
    "hash": "64d563dbe359",
-   "mentions": 4
+   "mentions": 4,
+   "error": "This operation was aborted"
   }
  }
 }
